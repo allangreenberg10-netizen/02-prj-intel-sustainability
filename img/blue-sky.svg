@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Photo-style blue sky SVG: layered gradients + turbulence clouds for realistic texture -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6FC3FF"/>
+      <stop offset="55%" stop-color="#9BD9FF"/>
+      <stop offset="100%" stop-color="#E6F8FF"/>
+    </linearGradient>
+
+    <!-- base turbulence for subtle cloud texture -->
+    <filter id="clouds" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="3" stitchTiles="stitch" result="noise" />
+      <feColorMatrix type="saturate" values="0" in="noise" result="desat" />
+      <feComponentTransfer in="desat" result="mask">
+        <feFuncA type="table" tableValues="0 0 0.25 0.7 1" />
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
+
+    <!-- softer, layered cloud shapes -->
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+
+    <radialGradient id="sunGlow" cx="0.82" cy="0.14" r="0.28">
+      <stop offset="0%" stop-color="#FFFAD1" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFAD1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1600" height="900" fill="url(#skyGrad)" />
+
+  <!-- layered soft clouds (vector shapes blurred to look photographic) -->
+  <g fill="#FFFFFF" opacity="0.95" filter="url(#softBlur)">
+    <path d="M120 260c80-40 160-40 240-8s140 72 240 48 220-92 340-48 200 120 320 92v120H0V260c80-24 160-12 120  -4z" opacity="0.95"/>
+    <path d="M300 340c60-36 150-28 220 4s150 48 250 36 200-64 300-32 180 96 260 80v120H300V340z" opacity="0.85"/>
+  </g>
+
+  <!-- subtle high-frequency cloud texture overlay for realism -->
+  <rect width="1600" height="900" fill="#fff" opacity="0.0" filter="url(#clouds)"/>
+
+  <!-- sun glow -->
+  <circle cx="1280" cy="110" r="180" fill="url(#sunGlow)" opacity="0.68"/>
+
+  <!-- faint vignette to add depth -->
+  <radialGradient id="v" cx="0.5" cy="0.5" r="0.8">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.05"/>
+  </radialGradient>
+  <rect width="1600" height="900" fill="url(#v)"/>
+</svg>

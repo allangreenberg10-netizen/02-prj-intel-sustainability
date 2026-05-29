@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2020 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 2020.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8edf1"/>
+      <stop offset="100%" stop-color="#8cbfd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <circle cx="920" cy="200" r="96" fill="#5da9c7" opacity="0.92"/>
+  <circle cx="920" cy="200" r="56" fill="#dff6fb"/>
+  <text x="600" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#1d4154">RISE</text>
+  <text x="600" y="344" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#1d4154">2020</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#1d4154">Responsible, Inclusive, Sustainable, Enabling</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#325a6f">A company-wide sustainability strategy launches.</text>
+</svg>

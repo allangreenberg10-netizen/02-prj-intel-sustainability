@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2026 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbeef7"/>
+      <stop offset="100%" stop-color="#89b7d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <circle cx="920" cy="205" r="90" fill="#23618d"/>
+  <path d="M883 207c35-36 65-28 74 12-14 18-33 33-56 44-12-15-18-34-18-56z" fill="#dff1fb"/>
+  <text x="600" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" fill="#1e4461">Current Roadmap</text>
+  <text x="600" y="344" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#1e4461">2026</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#1f4664">Latest sustainability goals</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#35516c">Carbon reduction, water stewardship, and supplier collaboration.</text>
+</svg>

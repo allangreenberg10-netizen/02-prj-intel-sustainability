@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2025 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 2025.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e1ece5"/>
+      <stop offset="100%" stop-color="#9cb6a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <circle cx="905" cy="205" r="88" fill="#437654"/>
+  <path d="M900 255c-25-20-30-62-10-96 28 22 39 68 10 96z" fill="#dff3e4"/>
+  <text x="600" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" fill="#26433a">Efficiency Investments</text>
+  <text x="600" y="344" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#26433a">2025</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#26433a">Operational improvements continue</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#3e5d4f">Energy use, waste, and manufacturing get cleaner.</text>
+</svg>

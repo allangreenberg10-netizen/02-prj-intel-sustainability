@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2006 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 2006.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dde3ea"/>
+      <stop offset="100%" stop-color="#a5b3c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <rect x="380" y="145" width="440" height="315" rx="28" fill="#31485a"/>
+  <text x="600" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#ffffff">2006</text>
+  <text x="600" y="342" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Peak GHG Emissions</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#22394a">Turning point for emissions</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#3a5567">Intel begins deeper investment in cleaner operations.</text>
+</svg>

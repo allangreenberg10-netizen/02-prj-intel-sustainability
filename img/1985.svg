@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">1985 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 1985.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d1e3d8"/>
+      <stop offset="100%" stop-color="#8fb6a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="75" y="85" width="1050" height="505" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <rect x="390" y="145" width="420" height="320" rx="28" fill="#254a3f"/>
+  <rect x="440" y="200" width="320" height="210" rx="18" fill="#d8e7db"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#24463d">386</text>
+  <text x="600" y="375" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#24463d">1985</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#234337">32-bit performance leap</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#35574b">A faster era of multitasking for personal computers.</text>
+</svg>

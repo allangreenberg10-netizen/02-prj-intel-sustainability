@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">1978 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 1978.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c2dbe8"/>
+      <stop offset="100%" stop-color="#7aa4bb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <rect x="370" y="160" width="460" height="290" rx="26" fill="#102c45"/>
+  <rect x="420" y="205" width="360" height="200" rx="18" fill="#92b7c7"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#ffffff">8086</text>
+  <text x="600" y="372" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" fill="#ffffff">1978</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#12324a">x86 architecture begins</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#24455b">A milestone chip that shaped PCs and servers.</text>
+</svg>

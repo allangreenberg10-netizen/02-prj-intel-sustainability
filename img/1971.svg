@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">1971 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 1971.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8e7f3"/>
+      <stop offset="100%" stop-color="#9ec5df"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="95" y="90" width="1010" height="495" rx="34" fill="rgba(7,21,33,0.13)"/>
+  <rect x="395" y="145" width="410" height="320" rx="28" fill="#1d3347"/>
+  <rect x="450" y="205" width="300" height="200" rx="16" fill="#7c93a6"/>
+  <circle cx="600" cy="305" r="56" fill="#d7e6f3"/>
+  <text x="600" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#ffffff">First Microprocessor</text>
+  <text x="600" y="428" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#ffffff">1971</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#173042">Microprocessor breakthrough</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#26465f">The 4004 launches the modern computing era.</text>
+</svg>

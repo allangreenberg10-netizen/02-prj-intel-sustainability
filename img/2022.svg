@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2022 Intel Timeline</title>
+  <desc id="desc">A clean timeline card illustration for 2022.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8f0ea"/>
+      <stop offset="100%" stop-color="#93cbb9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="34" fill="rgba(7,21,33,0.12)"/>
+  <circle cx="920" cy="210" r="96" fill="#1f8f6f" opacity="0.9"/>
+  <path d="M900 210c24-38 60-48 92-44-16 41-48 68-88 82-3-14-2-27-4-38z" fill="#dffcf3"/>
+  <text x="600" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" fill="#184c3f">Net-Zero</text>
+  <text x="600" y="344" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#184c3f">2022</text>
+  <text x="145" y="175" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#1b4a3d">Long-term climate commitment</text>
+  <text x="145" y="245" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#356053">Operations target net-zero greenhouse gas emissions.</text>
+</svg>
